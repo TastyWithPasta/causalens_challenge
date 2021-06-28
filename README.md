@@ -13,11 +13,12 @@ This document acts as both a readme and a general draft for the development of t
 - :heavy_check_mark: Modify draft program/architecture if necessary.
 - :heavy_check_mark: Create project skeleton including backend and frontend.
 - :heavy_check_mark: Dockerize backend and frontend separately.
-- Write deployment script with Ansible.
-- Deploy skeleton on remote server.
-- Implement REST backend implementing simple CRUD. [If time permits: Do it with TDD]
-- Test and debug backend using container and Postman. [If time permits: implement TDD tests using Postman-generated requests]
-- Implement web frontend
+- [:warning:] Write deployment script with Ansible.
+- :heavy_check_mark: Deploy skeleton on remote server.
+- :heavy_check_mark: Implement REST backend implementing simple CRUD. [If time permits: Do it with TDD]
+- :heavy_check_mark: Test and debug backend using container and Postman. [If time permits: implement TDD tests using Postman-generated requests]
+- :heavy_check_mark: Implement web frontend
+- Use https for backend queries
 - Work on the stretch goals
 
 
