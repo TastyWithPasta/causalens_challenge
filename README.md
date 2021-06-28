@@ -10,10 +10,10 @@ This document acts as both a readme and a general draft for the development of t
 - :heavy_check_mark: Send SSH key to Sam.
 - :heavy_check_mark: Test connection to deployment server
 - :heavy_check_mark: Ask list of questions about requirements and scope.
-- [:warning: On hold till 11] Modify draft program/architecture if necessary.
-- Create project skeleton including backend and frontend.
-- Dockerize backend and frontend separately.
-- Write deployment script.
+- :heavy_check_mark: Modify draft program/architecture if necessary.
+- :heavy_check_mark: Create project skeleton including backend and frontend.
+- :heavy_check_mark: Dockerize backend and frontend separately.
+- Write deployment script with Ansible.
 - Deploy skeleton on remote server.
 - Implement REST backend implementing simple CRUD. [If time permits: Do it with TDD]
 - Test and debug backend using container and Postman. [If time permits: implement TDD tests using Postman-generated requests]
