@@ -4,6 +4,14 @@
 ARG VARIANT="3.9"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
+# Install powershell
+# RUN sudo apt-get update
+# RUN sudo apt-get install -y wget apt-transport-https software-properties-common
+# RUN wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
+# RUN sudo dpkg -i packages-microsoft-prod.deb
+# RUN sudo apt-get update
+# RUN sudo apt-get install -y powershell
+
 # [Option] Install Node.js
 ARG INSTALL_NODE="true"
 ARG NODE_VERSION="lts/*"

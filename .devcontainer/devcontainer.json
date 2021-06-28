@@ -11,8 +11,9 @@
 			// Options
 			"INSTALL_NODE": "true",
 			"NODE_VERSION": "lts/*"
-		}
+		},
 	},
+	"runArgs": ["-v", "/var/run/docker.sock:/var/run/docker.sock", "--privileged"],
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
@@ -38,7 +39,7 @@
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8000, 8080],
+	"forwardPorts": [22, 443, 80, 8000, 8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
