@@ -5,7 +5,7 @@ This document acts as both a readme and a general draft for the development of t
 :heavy_check_mark: Write battle plan
 :heavy_check_mark: Generate SSH key.
 :heavy_check_mark: Prepare list of questions on specifications.
-- Draft and implement basic architecture based on known specifications, until office opens.
+:heavy_check_mark: Draft and implement basic architecture based on known specifications, until office opens.
 - Join slack group and meet the team.
 - Send SSH key to Sam.
 - Ask list of questions about requirements and scope.
@@ -28,3 +28,8 @@ What type(s) of keys are accepted?
 Any use case/user profile in mind?
 Is this application expected to see growth or rapid scaling?
 
+### Draft architecture
+Django backend (Simple app - using a simple all-inclusive framework for ORM and serving could do.)
+Sqlite database (default for Django, may change to Redis or Mongo depending on specs)
+Vue frontend + axiom library (Scalable and well-distributed frontend framework, integrated with Typescript, axiom to communicate with Django)
+Maybe public CI framework if time permits - CircleCI?
