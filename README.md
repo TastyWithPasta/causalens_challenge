@@ -2,9 +2,9 @@
 This document acts as both a readme and a general draft for the development of the application.
 
 ## Battle Plan
-- Write battle plan
-- Prepare list of questions on specifications.
-- Generate SSH key.
+:heavy_check_mark: Write battle plan
+:heavy_check_mark: Generate SSH key.
+:heavy_check_mark: Prepare list of questions on specifications.
 - Draft and implement basic architecture based on known specifications, until office opens.
 - Join slack group and meet the team.
 - Send SSH key to Sam.
@@ -18,4 +18,13 @@ This document acts as both a readme and a general draft for the development of t
 - Test and debug backend using container and Postman. [If time permits: implement TDD tests using Postman-generated requests]
 - Implement web frontend
 - Work on the stretch goals
+
+
+### Questions on specs:
+How many users are expected?
+How many concurrent users are expected?
+What kind of data will be stored?
+What type(s) of keys are accepted?
+Any use case/user profile in mind?
+Is this application expected to see growth or rapid scaling?
 
