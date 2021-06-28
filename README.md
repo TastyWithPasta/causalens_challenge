@@ -2,14 +2,15 @@
 This document acts as both a readme and a general draft for the development of the application.
 
 ## Battle Plan
-:heavy_check_mark: Write battle plan
-:heavy_check_mark: Generate SSH key.
-:heavy_check_mark: Prepare list of questions on specifications.
-:heavy_check_mark: Draft and implement basic architecture based on known specifications, until office opens.
-- Join slack group and meet the team.
-- Send SSH key to Sam.
-- Ask list of questions about requirements and scope.
-- Modify draft program/architecture if necessary.
+- :heavy_check_mark: Write battle plan
+- :heavy_check_mark: Generate SSH key.
+- :heavy_check_mark: Prepare list of questions on specifications.
+- :heavy_check_mark: Draft and implement basic architecture based on known specifications, until office opens.
+- :heavy_check_mark: Join slack group and meet the team.
+- :heavy_check_mark: Send SSH key to Sam.
+- :heavy_check_mark: Test connection to deployment server
+- :heavy_check_mark: Ask list of questions about requirements and scope.
+- [:warning: On hold till 11] Modify draft program/architecture if necessary.
 - Create project skeleton including backend and frontend.
 - Dockerize backend and frontend separately.
 - Write deployment script.
@@ -29,7 +30,7 @@ Any use case/user profile in mind?
 Is this application expected to see growth or rapid scaling?
 
 ### Draft architecture
-Django backend (Simple app - using a simple all-inclusive framework for ORM and serving could do.)
+Django backend (Simple app - using a simple all-inclusive framework for ORM and serving could do. Separation of concerns with frontend serving if need for scaling.)
 Sqlite database (default for Django, may change to Redis or Mongo depending on specs)
-Vue frontend + axiom library (Scalable and well-distributed frontend framework, integrated with Typescript, axiom to communicate with Django)
+Vue frontend + axiom library (Scalable and well-distributed frontend framework, integrated with Typescript, axiom to communicate with Django. Served with basic vue server.)
 Maybe public CI framework if time permits - CircleCI?
